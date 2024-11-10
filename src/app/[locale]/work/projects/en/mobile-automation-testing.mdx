@@ -1,0 +1,40 @@
+---
+title: "Mobile Automation Testing With Appium"
+publishedAt: "2024-04-08"
+summary: "In this project, I developed a flexible and scalable design system using Next.js for front-end development and Figma for design collaboration."
+images:
+  - "/images/projects/project-01/cover-01.png"
+  - "/images/projects/project-01/cover-02.png"
+team:
+  - name: "Poweres Kittikonrut"
+    role: "QA Engineer"
+    avatar: "/images/avatar.png"
+    linkedIn: "https://www.linkedin.com/in/poweres-kittikonrut-6b3853137"
+---
+
+## Overview
+
+In this project, I developed a scalable Appium Selenium Grid framework aimed at enabling parallel testing across multiple devices and browsers. The grid is designed to improve the testing efficiency by distributing tests across a network of nodes, each running its own instance of Appium or Selenium WebDriver. This system supports both mobile and web testing, ensuring flexibility in handling different platforms.
+
+## Key Features
+
+- **Scalable Grid Architecture**: Set up a Selenium Grid that allows for easy scaling by adding or removing nodes as needed. The grid supports both local and remote executions for parallel testing across different environments.
+- **Multi-Platform Support**: Configured the grid to support testing on multiple platforms, including Android, iOS, and web browsers, using Appium for mobile and Selenium for web testing.
+- **Custom Node Configuration**: Developed custom configurations for different types of nodes (Android, iOS, web) to ensure smooth integration and optimal performance across platforms.
+- **Docker Integration**: Utilized Docker to containerize the nodes, simplifying the setup process and making the grid easily deployable on various environments, including local, CI/CD pipelines, and cloud infrastructure.
+
+## Technologies Used
+
+- **Appium**: For automating mobile applications on both Android and iOS platforms.
+- **Selenium**: For automating web browser interactions and integrating with Selenium Grid for web testing.
+- **Docker**: For containerizing the grid and its nodes, enabling quick and consistent setup across different environments.
+
+## Challenges and Learnings
+
+One of the main challenges was ensuring compatibility across different device types and browser versions while maintaining optimal grid performance. Another significant challenge was balancing resource usage across nodes, especially when running tests on mobile devices with Appium. Through experimentation and tuning of node configurations, I was able to achieve stable and efficient test runs across diverse platforms.
+
+Additionally, integrating Docker for containerization simplified the setup process, but required careful management of resources to avoid performance bottlenecks when running parallel tests at scale.
+
+## Outcome
+
+The Appium Selenium Grid framework is now being used to run parallel tests across multiple platforms, significantly reducing the time needed for test execution. The grid's flexibility allows it to scale easily according to project needs, while Docker and CI/CD integration streamline the testing process across different environments. This framework has led to more efficient test cycles and improved coverage across both mobile and web applications.
